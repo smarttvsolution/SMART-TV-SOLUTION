@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart TV Solution - Kanpur</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    .banner {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    section {
+      padding: 20px;
+      background: white;
+      margin: 15px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      margin-top: 0;
+      color: #222;
+    }
+    .features img, .about img, .reviews img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .review {
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      margin-top: 10px;
+    }
+    .review strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 20px;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+    .whatsapp-float img {
+      width: 55px;
+      height: 55px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Smart TV Solution</h1>
+    <p>Affordable TV repair services at your home – ₹299 only!</p>
+  </header>
+
+  <img src="https://images.unsplash.com/photo-1590402494682-44c56e8f1588?auto=format&fit=crop&w=1200&q=80" alt="TV Repair Banner" class="banner" />
+
+  <!-- Features -->
+  <section class="features">
+    <h2>🛠️ LED/LCD/Smart TV Repair</h2>
+    <p>We repair all major brands and models – on-the-spot service in Kanpur.</p>
+    <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=1000&q=80" alt="TV Technician" />
+    
+    <h2>👨‍🔧 Expert Technicians</h2>
+    <p>Experienced & trained staff with 100% satisfaction guarantee.</p>
+    <img src="https://images.unsplash.com/photo-1581090700227-1e8a6d2f06fb?auto=format&fit=crop&w=1000&q=80" alt="Expert Technician" />
+  </section>
+
+  <!-- About Us -->
+  <section class="about">
+    <h2>ℹ️ About Us</h2>
+    <p>
+      At Smart TV Solution, we believe in fast, affordable, and reliable TV repair right at your doorstep. 
+      Based in Kanpur, our team of experienced technicians has helped over 1,000+ happy customers get their TVs working like new. 
+      Whether it’s a display issue, sound problem, or port repair – we fix it all at just ₹299 per visit.
+    </p>
+    <img src="https://images.unsplash.com/photo-1616443003070-5c7a755d3684?auto=format&fit=crop&w=1000&q=80" alt="About Smart TV Solution" />
+  </section>
+
+  <!-- Contact -->
+  <section>
+    <h2>📞 Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p><strong>Call/WhatsApp:</strong> <a href="tel:6393333569">6393333569</a><br>
+    <strong>Email:</strong> smarttvsolution@gmail.com</p>
+  </section>
+
+  <!-- Reviews -->
+  <section class="reviews">
+    <h2>⭐ Customer Reviews</h2>
+
+    <img src="https://images.unsplash.com/photo-1600267165402-3e65c8aa6c03?auto=format&fit=crop&w=1000&q=80" alt="Happy Customers" />
+
+    <div class="review">
+      <strong>Rahul Verma:</strong>
+      Great service! Technician came within 1 hour and fixed the screen issue quickly.
+    </div>
+
+    <div class="review">
+      <strong>Preeti Singh:</strong>
+      Very professional and affordable. Will recommend to others.
+    </div>
+
+    <div class="review">
+      <strong>Ajay Kumar:</strong>
+      Fast and reliable service. Best price in Kanpur for TV repair.
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Smart TV Solution. All rights reserved.
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-float">
+    <a href="https://wa.me/6393333569" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp Chat" />
+    </a>
+  </div>
+
+</body>
+</html>
